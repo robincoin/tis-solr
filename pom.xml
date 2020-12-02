@@ -180,17 +180,11 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring-version}</version>
             </dependency>
-            <!--
-                        <dependency>
-                            <groupId>com.qlangtech.tis</groupId>
-                            <artifactId>tis-rpc</artifactId>
-                            <version>${project.version}</version>
-                        </dependency>
-            -->
+
             <dependency>
                 <groupId>com.qlangtech.tis</groupId>
                 <artifactId>tis-ibatis</artifactId>
-                <version>2.0</version>
+                <version>3.0</version>
             </dependency>
 
             <dependency>
@@ -214,6 +208,8 @@
                         <groupId>org.springframework</groupId>
                         <artifactId>spring-context</artifactId>
                     </exclusion>
+
+
                 </exclusions>
             </dependency>
             <!--
@@ -244,7 +240,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>com.qlangtech.tis</groupId>
                 <artifactId>tis-plugin</artifactId>
@@ -267,7 +262,7 @@
             <dependency>
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
-                <version>1.9.2</version>
+                <version>1.9.4</version>
             </dependency>
 
             <dependency>
@@ -325,6 +320,12 @@
                 <artifactId>jetty-webapp</artifactId>
                 <version>${jetty.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-io</artifactId>
+                <version>${jetty.version}</version>
             </dependency>
 
             <dependency>
@@ -479,7 +480,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.6</version>
+                <version>1.2.25.sec10</version>
             </dependency>
 
             <dependency>
@@ -579,7 +580,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>3.8.1</version>
+                <version>4.13.1</version>
                 <scope>test</scope>
             </dependency>
 
@@ -617,7 +618,7 @@
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>3.4.5</version>
+                <version>3.4.14</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.jms</groupId>
